@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import cv from "../cv.pdf";
 import emailjs from "@emailjs/browser";
 import { BsSendFill } from "react-icons/bs";
 import {
@@ -10,6 +11,7 @@ import {
 
 const Contact = () => {
   const form = useRef();
+  let msg = document.querySelector("#msg");
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -21,9 +23,13 @@ const Contact = () => {
       .then(
         () => {
           console.log("SUCCESS!");
+          msg.style.color = "green";
+          msg.innerHTML = "Message Sent Successfully";
         },
         (error) => {
           console.log("FAILED...", error.text);
+          msg.style.color = "red";
+          msg.innerHTML = "FAILED...";
         }
       );
     // to me
@@ -66,7 +72,7 @@ const Contact = () => {
                 <FaLinkedin />
               </a>
             </div>
-            <a href="/cv" download className="btn btn2">
+            <a href={cv} download className="btn btn2">
               Download CV
             </a>
           </div>
