@@ -11,7 +11,7 @@ import {
 
 const Contact = () => {
   const form = useRef();
-  let msg = document.querySelector("#msg");
+  const msg = document.querySelector("#msg");
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -23,12 +23,12 @@ const Contact = () => {
       .then(
         () => {
           console.log("SUCCESS!");
-          msg.style.color = "green";
+          // msg.style.color = "green";
           msg.innerHTML = "Message Sent Successfully";
         },
         (error) => {
           console.log("FAILED...", error.text);
-          msg.style.color = "red";
+          // msg.style.color = "red";
           msg.innerHTML = "FAILED...";
         }
       );
