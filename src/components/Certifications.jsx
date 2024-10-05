@@ -19,9 +19,9 @@ const Certifications = () => {
                 should respond to the user's behavior and environment based on
                 screen size, platform and orientation
               </p>
-              <a href="">
+              {/* <a href="">
                 <FaExternalLinkAlt />
-              </a>
+              </a> */}
             </div>
           </div>
           <div className="certif">
@@ -32,9 +32,9 @@ const Certifications = () => {
                 Master basics of APIs, handling requests & interacting with them
                 using Postman
               </p>
-              <a href="">
+              {/* <a href="">
                 <FaExternalLinkAlt />
-              </a>
+              </a> */}
             </div>
           </div>
           <div className="certif">

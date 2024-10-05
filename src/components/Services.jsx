@@ -41,7 +41,9 @@ const Services = () => {
               essential for personal and professional success. You'll find a
               perormance summary down below.
             </p>
-            <a href="https://imgur.com/a/0hm4bAI">Learn More</a>
+            <a href="https://www.facebook.com/reel/1074055567560917">
+              Learn More
+            </a>
           </div>
         </div>
       </div>
