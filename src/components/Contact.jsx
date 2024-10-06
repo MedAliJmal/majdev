@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import cv from "../cv.pdf";
+import CVMEDALIJMAL from "../CVMEDALIJMAL.pdf";
 import emailjs from "@emailjs/browser";
 import { BsSendFill } from "react-icons/bs";
 import {
@@ -62,17 +62,17 @@ const Contact = () => {
               <FaPhoneSquareAlt className="iconne" /> +216 23 26 28 12
             </p>
             <div className="social-icons">
-              <a href="https://www.facebook.com/Jmal.Med.Ali2/">
+              <a target="_blank" href="https://www.facebook.com/Jmal.Med.Ali2/">
                 <FaFacebook />
               </a>
-              <a href="https://github.com/MedAliJmal">
+              <a target="_blank" href="https://github.com/MedAliJmal">
                 <FaGithub />
               </a>
               <a href="https://www.linkedin.com/in/maj-link/">
                 <FaLinkedin />
               </a>
             </div>
-            <a href={cv} download className="btn btn2">
+            <a href={CVMEDALIJMAL} download className="btn btn2">
               Download CV
             </a>
           </div>

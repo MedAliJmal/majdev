@@ -17,7 +17,9 @@ const Services = () => {
               website that automatically adjusts itself according to the user's
               needs.
             </p>
-            <a href="https://icoxds.vercel.app/">Learn More</a>
+            <a href="https://icoxds.vercel.app/" target="_blank">
+              Learn More
+            </a>
           </div>
           <div>
             <FaCropAlt className="ico" />
@@ -28,7 +30,9 @@ const Services = () => {
               Graphic design i can create multiple interfaces that matches the
               user needs.
             </p>
-            <a href="https://icoxds.vercel.app/">Learn More</a>
+            <a href="https://icoxds.vercel.app/" target="_blank">
+              Learn More
+            </a>
           </div>
           <div>
             <GiTeacher className="ico" />
@@ -41,7 +45,10 @@ const Services = () => {
               essential for personal and professional success. You'll find a
               perormance summary down below.
             </p>
-            <a href="https://www.facebook.com/reel/1074055567560917">
+            <a
+              href="https://www.facebook.com/reel/1074055567560917"
+              target="_blank"
+            >
               Learn More
             </a>
           </div>

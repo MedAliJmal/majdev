@@ -69,11 +69,17 @@ const About = () => {
               <ul>
                 <li>
                   <span>2022 - 2024</span> <br /> Fulltime teaching at{" "}
-                  <a href="https://gomycode.com/tn/fr/">GoMyCode</a>.
+                  <a target="_blank" href="https://gomycode.com/tn/fr/">
+                    GoMyCode
+                  </a>
+                  .
                 </li>
                 <li>
                   <span>2019 - 2021</span> <br /> Methodist at{" "}
-                  <a href="https://www.facebook.com/Fabco.tn">FABCO</a>.
+                  <a target="_blank" href="https://www.facebook.com/Fabco.tn">
+                    FABCO
+                  </a>
+                  .
                 </li>
                 <li>
                   <span>2018 - 2019</span> <br /> A freelancer Graphic designer.
@@ -88,7 +94,11 @@ const About = () => {
                 </li>
                 <li>
                   <span>2019</span> <br /> Civil engineering technician from
-                  <a href="https://isetsf.rnu.tn/"> ISET Sfax</a>.
+                  <a target="_blank" href="https://isetsf.rnu.tn/">
+                    {" "}
+                    ISET Sfax
+                  </a>
+                  .
                 </li>
                 <li>
                   <span>2013</span> <br /> Self-study Graphic design.

@@ -46,7 +46,10 @@ const Certifications = () => {
                 it with Node.js / Express.js & MongoDB to create MERN Stack
                 Applications
               </p>
-              <a href="https://diploma.gomycode.app/?id=39cf10d90d10b12a8">
+              <a
+                href="https://diploma.gomycode.app/?id=39cf10d90d10b12a8"
+                target="_blank"
+              >
                 <FaExternalLinkAlt />
               </a>
             </div>
